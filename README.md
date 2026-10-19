@@ -1,23 +1,22 @@
 Student Study Data Analyzer
 
-📌 About the Project
+A Python-based data analysis project that analyzes student study hours and exam scores using Pandas, CSV files, and Matplotlib.
 
-Student Study Data Analyzer is a beginner-friendly Python project that uses NumPy to analyze students' study hours and exam scores. It calculates useful statistics to help understand student performance data.
-
-This project is part of my journey toward becoming an AI engineer.
-
-🎯 Features
-
-Store student names, study hours, and exam scores using NumPy arrays.
-Calculate total and average study hours.
-Find the highest and lowest study hours.
+Features:
+Load student records from a CSV file.
+Display and inspect student data using Pandas.
+Detect missing values and duplicate records.
+Clean data by removing duplicates and handling missing values.
+Calculate total, average, highest, and lowest study hours.
 Calculate average, highest, and lowest exam scores.
-Identify students scoring 70 or above.
-Simulate adding one extra study hour to each student.
+Identify students scoring 70 or above and students scoring below 50.
+Visualize student exam scores using a bar chart.
+Display the average exam score as a reference line.
+Save the chart as exam_scores.png.
 
-🛠️ Technologies Used
-
-Python
-NumPy
-Visual Studio Code
-Git and GitHub
+Technologies Used:
+Python — core programming language
+Pandas — data manipulation and analysis
+Matplotlib — data visualization
+CSV — storing student records
+Git and GitHub — version control and project hosting
